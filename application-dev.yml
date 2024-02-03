@@ -3,7 +3,7 @@ spring:
     name: Config-Dev
 eureka:
   instance:
-    instance-id: ${spring.application.name}
+    prefer-ip-address: true
   client:
     fetch-registry: true
     register-with-eureka: true
